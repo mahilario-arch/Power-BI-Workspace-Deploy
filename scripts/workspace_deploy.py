@@ -38,7 +38,7 @@ def main():
             print('Deploying {} to {}'.format(file_name, workspace))
             file_import = {'file': open(file, 'rb')}
             response = requests.request("POST",
-                                        "https://api.powerbi.com/v1.0/myorg/groups/{}/imports?"
+                                        "https://app.powerbi.com/groups/{}/imports?"
                                         "datasetDisplayName={}&nameConflict=CreateOrOverwrite"
                                         .format(workspace_id, display_name), files=file_import, headers=token)
 
