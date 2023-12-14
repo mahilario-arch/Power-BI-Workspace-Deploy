@@ -43,7 +43,7 @@ def main():
             file_import = {'file': open(file, 'rb')}
             response = requests.request("POST",
                                         (
-                                            f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/imports?"
+                                            f"https://app.powerbi.com/groups/{workspace_id}/imports?"
                                             f"datasetDisplayName={urllib.parse.quote(display_name)}"
                                             f"&nameConflict=CreateOrOverwrite"
                                         ), files=file_import, headers=token)
