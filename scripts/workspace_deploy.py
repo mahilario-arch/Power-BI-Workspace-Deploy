@@ -33,7 +33,7 @@ def main():
     file_list = sys.argv[1].split(separator)
 
     for file in file_list:
-        if file.endswith('.pbix') and os.path.exists(file):
+        if file.endswith('.pbip') and os.path.exists(file):
             path = Path(file)
             workspace = os.path.basename(path.parent.absolute())
             file_name = os.path.basename(file)

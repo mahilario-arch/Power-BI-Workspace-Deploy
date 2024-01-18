@@ -1,0 +1,227 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1050.6999999999998,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 568,
+            "y": 223.05113115190238
+          },
+          "nodeIndex": "FCT_NFP_CLAIMS",
+          "nodeLineageTag": "71ee3763-7cd7-4fb8-8868-c2fbeb72dc72",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 223.05113115190238
+          },
+          "nodeIndex": "FCT_NFP_POLICY",
+          "nodeLineageTag": "c0edba5c-037d-4270-b7e9-b19c57e6723f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2968.7,
+            "y": 309.05113115190238
+          },
+          "nodeIndex": "LKP_RESERVESTATUS",
+          "nodeLineageTag": "def15a48-0fba-4160-9a68-c46114e6e256",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3242.7,
+            "y": 309.05113115190238
+          },
+          "nodeIndex": "LKP_CLAIMSTATUS",
+          "nodeLineageTag": "9461cd88-ebaf-49e3-805c-19219f558758",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3526.7,
+            "y": 309.05113115190238
+          },
+          "nodeIndex": "LKP_DELINQUENCYSTATUS",
+          "nodeLineageTag": "fdfb71aa-6f84-441f-8f4a-4b5ddf389c94",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1978,
+            "y": 371.05113115190238
+          },
+          "nodeIndex": "Report Measures",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 10,
+            "y": 213.05113115190238
+          },
+          "nodeIndex": "Date",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 294,
+            "y": 213.05113115190238
+          },
+          "nodeIndex": "Loan",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3963.5181185994725,
+            "y": 20.641734157664814
+          },
+          "nodeIndex": "Approval Type",
+          "nodeLineageTag": "b1096410-a2cb-4260-ade8-b869d60ff03f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4094.9705695780617,
+            "y": 174.87589038006229
+          },
+          "nodeIndex": "HLP_NFP_NIW_IIF_RIF",
+          "nodeLineageTag": "ffce1c68-00fe-477d-9531-f08ec8e0433e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4379.1779662179961,
+            "y": 471.66508156187092
+          },
+          "nodeIndex": "Lender",
+          "nodeLineageTag": "038b6b32-1462-4d4d-acb1-e2bf0e757899",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4379.2155457109784,
+            "y": 196.30104112807794
+          },
+          "nodeIndex": "Lender State",
+          "nodeLineageTag": "725fb3dd-b6e0-416c-a0b5-463d04ada93f",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4247.7506221766535,
+            "y": -10
+          },
+          "nodeIndex": "Lender Type",
+          "nodeLineageTag": "78d97b19-31d1-42b7-954e-8a4f2b002929",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3810.7646262644421,
+            "y": 487.41825209732497
+          },
+          "nodeIndex": "Loan Status",
+          "nodeLineageTag": "62625ff0-3b02-4c5f-bf64-6cc2270240ed",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4094.9758691989937,
+            "y": 632.10226230380476
+          },
+          "nodeIndex": "Product Type",
+          "nodeLineageTag": "c3684178-9f2e-488c-8528-5a0008ba0374",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3810.7,
+            "y": 213.37901403699396
+          },
+          "nodeIndex": "Property Type",
+          "nodeLineageTag": "d74294a9-5805-43c5-b715-5e6931cf899c",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
